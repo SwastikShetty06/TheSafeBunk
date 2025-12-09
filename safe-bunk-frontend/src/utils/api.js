@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const api = axios.create({
     baseURL: import.meta.env.PROD
-        ? 'https://the-safe-bunk-4ngpzw1bq-swastikshetty06s-projects.vercel.app/api'
+        ? 'https://the-safe-bunk-git-main-swastikshetty06s-projects.vercel.app/api'
         : 'http://localhost:5001/api',
 });
 
