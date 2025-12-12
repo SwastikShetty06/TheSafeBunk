@@ -1,9 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: import.meta.env.PROD
-        ? 'https://the-safe-bunk-git-main-swastikshetty06s-projects.vercel.app/api'
-        : 'http://localhost:5001/api',
+    baseURL: 'https://the-safe-bunk.vercel.app/api',
 });
 
 // Add a request interceptor to add the token
